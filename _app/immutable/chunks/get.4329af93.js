@@ -1,0 +1,1 @@
+import{a as s}from"./apiFetch.bc854194.js";async function a(r="",e=""){if(r===""&&e==="")throw new Error("email or id must be provided");return await s(`/users?email=${r}&id=${e}`,{method:"GET"})}export{a as g};
